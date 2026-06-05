@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/serverless-invoices/precache-manifest.b0049f7d9244d68f566dd6052391646d.js"
+  "/serverless-invoices/precache-manifest.69a5b0016de17db1ef41a616871063e9.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "serverless-invoices"});
