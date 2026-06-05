@@ -1,17 +1,14 @@
 <template>
-    <div id="app"
-         class="min-vh-100"
-         :class="$route.name">
-        <vue-progress-bar/>
-        <transition name="fade" mode="out-in">
-            <router-view/>
-        </transition>
-        <notifications position="bottom center" classes="snackbar" width="332"/>
-    </div>
+  <div id="app" class="min-vh-100" :class="$route.name">
+    <vue-progress-bar />
+    <transition name="fade" mode="out-in">
+      <router-view />
+    </transition>
+    <notifications position="bottom center" classes="snackbar" width="332" />
+  </div>
 </template>
 
 <script>
-
 export default {
   name: 'app',
   created() {
@@ -50,8 +47,8 @@ export default {
 </script>
 
 <style lang="scss">
-@use './assets/scss/variables';
-@use '../node_modules/bootstrap/scss/bootstrap';
-@use '../node_modules/bootstrap-vue/dist/bootstrap-vue.min.css';
-@use './assets/scss/app';
+@import './assets/scss/variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/bootstrap-vue/dist/bootstrap-vue.min.css';
+@import './assets/scss/app';
 </style>
