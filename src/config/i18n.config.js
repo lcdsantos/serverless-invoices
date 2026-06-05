@@ -7,15 +7,13 @@ import app from '@/main';
 
 Vue.use(VueI18Next);
 
-i18next
-  .use(LanguageDetector)
-  .use(Backend);
+i18next.use(LanguageDetector).use(Backend);
 
 const initialized = i18next.init({
   fallbackLng: 'en',
   whitelist: ['en', 'de', 'fr', 'et', 'fa', 'bn', 'es', 'pt_br', 'it', 'id', 'kr'],
   backend: {
-    loadPath: `${window.location.origin}/locales/{{lng}}/{{ns}}.json`,
+    loadPath: `${window.location.origin}/serverless-invoices/locales/{{lng}}/{{ns}}.json`,
   },
   detection: {
     order: ['querystring', 'path', 'localStorage', 'navigator'],
