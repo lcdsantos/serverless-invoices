@@ -18,7 +18,7 @@ const routes = [
     },
     children: [
       {
-        path: '/invoices',
+        path: '/',
         name: 'invoices',
         component: () => import(/* webpackChunkName: "invoices" */ '@/views/dashboard/Invoices.vue'),
       },
