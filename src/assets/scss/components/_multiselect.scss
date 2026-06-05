@@ -1,3 +1,6 @@
+@use "sass:color";
+@use "../../../../node_modules/vue2-datepicker/scss";
+
 .multiselect {
   color: var(--text-primary) !important;
 
@@ -99,7 +102,7 @@
     padding: 0;
     font-weight: $input-font-weight;
     font-size: $input-font-size;
-    color: $input-color;
+    color: scss.$input-color;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -115,7 +118,7 @@
 
   .multiselect__input:hover,
   .multiselect__single:hover {
-    border-color: $input-border-color;
+    border-color: scss.$input-border-color;
   }
 
   .multiselect__input:focus,
@@ -125,7 +128,7 @@
 
   .multiselect__tags {
     min-height: $input-height;
-    border: 1px solid $input-border-color;
+    border: 1px solid scss.$input-border-color;
     background: $input-bg;
     //padding-bottom: 4px;
     font-size: $input-font-size;
@@ -139,12 +142,12 @@
   }
 
   .multiselect__tag-icon:after {
-    color: darken($green, 0.07);
+    color: color.adjust($green, $lightness: -0.07);
   }
 
   .multiselect__tag-icon:focus,
   .multiselect__tag-icon:hover {
-    background: darken($green, 0.07);
+    background: color.adjust($green, $lightness: -0.07);
   }
 
   .multiselect__tag-icon:focus:after,

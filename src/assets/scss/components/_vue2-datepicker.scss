@@ -1,10 +1,10 @@
-@import '~vue2-datepicker/scss/index';
+@use '~vue2-datepicker/scss/index';
 
 .mx-input {
   height: $input-height;
-  border-color: $input-border-color;
+  border-color: index.$input-border-color;
   box-shadow: none;
-  color: $input-color;
+  color: index.$input-color;
   font-size: $input-font-size;
   padding-top: $input-padding-y;
   padding-bottom: $input-padding-y;
@@ -15,15 +15,15 @@
   }
 
   &:hover {
-    border-color: $input-border-color;
+    border-color: index.$input-border-color;
   }
 }
 
 .mx-icon-calendar,
 .mx-icon-clear {
-  color: $input-color;
+  color: index.$input-color;
   &:hover {
-    color: $input-color;
+    color: index.$input-color;
   }
 }
 

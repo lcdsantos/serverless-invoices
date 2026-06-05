@@ -1,3 +1,5 @@
+@use "variables";
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -8,7 +10,7 @@
   height: 0;
   background-color: $modal-backdrop-bg;
   opacity: $modal-backdrop-opacity;
-  transition: opacity .4s $base-ease;
+  transition: opacity 0.4s $base-ease;
   visibility: visible;
   &.in {
     width: 100%;

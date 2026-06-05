@@ -1,3 +1,5 @@
+@use "../../../node_modules/vue2-datepicker/scss";
+
 .btn {
   border-width: 0;
 
@@ -14,7 +16,7 @@
 
   &-outline-secondary {
     border-width: $btn-border-width;
-    border-color: $input-border-color;
+    border-color: scss.$input-border-color;
   }
 
   &-primary {
