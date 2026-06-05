@@ -18,7 +18,7 @@ RUN npm install
 COPY . .
 
 # Copy config (grrrr not written in README!! https://github.com/mokuappio/serverless-invoices/issues/9)
-COPY src/config/app.config.example.js ./src/config/app.config.js
+# COPY src/config/app.config.example.js ./src/config/app.config.js
 
 # Build the app
 RUN npm run build
