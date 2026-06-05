@@ -4,11 +4,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/serverless-invoices/browserconfig.xml"
   },
   {
-    "revision": "172c9bb5543495cba05e",
+    "revision": "32eb9bb8a20707610f4b",
     "url": "/serverless-invoices/css/app.812f7162.css"
   },
   {
-    "revision": "172c9bb5543495cba05e",
+    "revision": "32eb9bb8a20707610f4b",
     "url": "/serverless-invoices/css/app.812f7162.css.map"
   },
   {
@@ -84,16 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/serverless-invoices/img/icons/safari-pinned-tab.svg"
   },
   {
-    "revision": "36dc43bca938fe4527665d3873b2db2e",
+    "revision": "cb14897115a8a923c804d43d5d34243d",
     "url": "/serverless-invoices/index.html"
   },
   {
-    "revision": "172c9bb5543495cba05e",
-    "url": "/serverless-invoices/js/app.2d828b9c.js"
+    "revision": "32eb9bb8a20707610f4b",
+    "url": "/serverless-invoices/js/app.9b49c492.js"
   },
   {
-    "revision": "172c9bb5543495cba05e",
-    "url": "/serverless-invoices/js/app.2d828b9c.js.map"
+    "revision": "32eb9bb8a20707610f4b",
+    "url": "/serverless-invoices/js/app.9b49c492.js.map"
   },
   {
     "revision": "303e60fa5fee099dc561",
